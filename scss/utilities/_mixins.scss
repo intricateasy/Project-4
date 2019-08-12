@@ -1,0 +1,36 @@
+// Media Queries ------------------- //
+
+@mixin mq($break) {
+  @if $break == "tablet" {
+    @media (min-width: $break-tablet) {
+      @content;
+    }
+  }
+  @else if $break == "desktop" {
+    @media (min-width: $break-desktop) {
+      @content;
+    }
+  }
+  @else {
+    @error "Wrong value for Media Querie Mixin";
+  }
+}
+
+// Flexbox ------------------- //
+
+@mixin flex(
+  $disp: flex,
+  $dir: null,
+  $wrap: null,
+  $just: null) {
+  display: $disp;
+  flex-direction: $dir;
+  flex-wrap: $wrap;
+  justify-content: $just;
+}
+
+// Center ------------------ //
+
+@mixin center {
+  margin: 0 auto;
+}

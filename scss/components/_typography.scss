@@ -1,0 +1,50 @@
+body {
+  font-family: $font-primary;
+  color: $color-text;
+}
+
+.card {
+  .headline {
+    &--secondary {
+      margin-left: 8px;
+      font-weight: 300;
+    }
+    &--primary {
+      margin-left: 20px;
+      padding-bottom: 20px;
+      color: $color-primary;
+      font-size: 32px;
+      font-weight: bold;
+      line-height: 1.1;
+      letter-spacing: -0.8px;
+      width: 75%;
+    }
+  }
+}
+
+.link {
+  color: $color-secondary;
+  font-weight: bold;
+}
+
+.blockquote {
+  font-size: 22px;
+  border-left: 10px solid $color-primary;
+  border-radius: 5px;
+  padding-left: 16px;
+  font-weight: 300;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.headline {
+  &--secondary {
+    margin-left: 30px;
+    font-weight: 300;
+    font-size: 18px;
+    @include mq(tablet) {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  }
+}

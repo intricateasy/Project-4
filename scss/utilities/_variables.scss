@@ -1,0 +1,38 @@
+// Fonts ------------------------- //
+@import url('https://fonts.googleapis.com/css?family=Blinker:300,400,700&display=swap');
+$font-primary: 'Blinker', sans-serif;
+
+// Colors ------------------------ //
+$white: #fff;
+$color-primary: #58e1c1;
+$color-secondary: #51ddfc;
+$color-text: #878787;
+
+// Breakpoints ------------------- //
+$break-tablet: 768px;
+$break-desktop: 1024px;
+
+// Buttons ----------------------- //
+$theme__colors: (
+'default': #51ddfc,
+'success': #63cc82,
+'error': #e4757a,
+'warning': #fd7856,
+'info':    #927bc1,
+);
+
+// Grids ------------------------- //
+$grid__colors: (
+'1': #009193,
+'2': #00f900,
+'3': #deb2ee,
+'4': #7ee6fd,
+'5': #88d9a0,
+'6': #3fabca,
+'7': #ec9fa3,
+'8': #fd9f85,
+'9': #ff40ff,
+'10': #73fa79,
+'11': #ff9300,
+'12': #80e8d1,
+);

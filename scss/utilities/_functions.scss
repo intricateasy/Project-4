@@ -1,0 +1,35 @@
+@each $button, $bg in $theme__colors {
+  .btn--#{$button} {
+    background-color: $bg;
+    color: $white;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 90%;
+    display: block;
+    @include center;
+    margin-top: 20px;
+    margin-bottom: 12px;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    @include mq(tablet) {
+      width: 15%;
+      display: inline-block;
+      margin-left: 28px;
+      margin-right: 28px;
+    }
+  }
+}
+
+@each $number, $gr_color in $grid__colors {
+  .grid__col--#{$number}.theme__colors {
+    background-color: $gr_color;
+    border-radius: 5px;
+    padding: 12px;
+    margin-left: 12px;
+    margin-right: 12px;
+    @include mq(tablet) {
+    text-align: center;
+  }
+  }
+}

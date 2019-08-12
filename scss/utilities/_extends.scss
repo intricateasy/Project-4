@@ -1,0 +1,24 @@
+// Create a partial for your placeholders in your utilities folder
+
+// In your placeholder partial, create placeholders for at least the following:
+
+// Links
+// Images
+// Nav items
+
+%link {
+  color: $color-secondary;
+}
+
+%italic {
+  font-style: italic;
+}
+
+%img-padding {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+%txt-center {
+  text-align: center;
+}
